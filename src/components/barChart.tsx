@@ -99,9 +99,8 @@ const BarChart = (props: graphProps) => {
             ))}
           </div>
           <div
-            className={`absolute left-[-80px] bottom-[${
-              yAxisSize === "large" ? "200px" : "50px"
-            }] rotate-90`}
+            className={`absolute left-[-80px]  rotate-90`}
+            style={{ bottom: yAxisSize === "large" ? "200px" : "50px" }}
           >
             {yAxisName}
           </div>
@@ -111,7 +110,7 @@ const BarChart = (props: graphProps) => {
 
       <button
         onClick={handleRegenerate}
-        className="m-4 button bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        className="mb-2 button bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded"
       >
         Regenerate
       </button>

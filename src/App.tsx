@@ -9,7 +9,7 @@ function App() {
   const yAxisName = "No. of Rating";
   return (
     <div className="p-10 pt-0">
-      <div className="text-3xl font-bold mb-4">Bar Chart</div>
+      <div className="text-2xl font-bold mb-2">Bar Chart</div>
       <BarChart
         xAxisData={xAxisData}
         xAxisLable={xAxisLable}
