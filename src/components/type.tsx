@@ -8,4 +8,6 @@ export interface graphProps {
     xAxisLable: string[];
     barSize?: string;
     yAxisSize?: string;
+    xAxisName?: string;
+    yAxisName?: string;
 }
