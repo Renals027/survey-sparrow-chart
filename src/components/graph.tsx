@@ -112,7 +112,7 @@ const GraphComponent = (props: graphProps) => {
             marginTop: "30px",
           }}
         >
-          Voted Population
+          Gen
         </div>
       </div>
 
